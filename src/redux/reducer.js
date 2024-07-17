@@ -16,7 +16,7 @@ export const reducer = ( state = intialstate, action) => {
         return [ ...results  ]
         case SET_USER_DATA : 
         return [
-                
+          
                 action.data
         ]
 
